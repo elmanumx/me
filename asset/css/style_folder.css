@@ -1,0 +1,141 @@
+.ud_solution{
+	margin:10px;
+	width: 100%;
+	min-height: 300px;
+	padding: 150px 0 0 0;
+	float: left;
+	position: relative;
+}
+.ud_solution:last-child{
+	margin: 5%;
+}
+.ud_solution h2{
+	text-transform: uppercase;
+	position: absolute;
+	top:15px;
+	left: 40px;
+	line-height:;
+}
+.ud_solution h2 span{
+	font-size: 15px;
+	color: #ff6688;
+	font-weight: 508;
+}
+/************
+**************/
+#folder .ud_portafolio .ud_sliding_box, #folder .ud_portafolio .ud_sliding_box span,
+#folder .ud_portafolio
+{
+	transition:400ms all;
+}
+
+
+
+/*Bilder********************/
+.ud_1{
+	background: url(../img/projects/pizza1.png) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-position: 5% 0;
+}
+
+.ud_2{
+	background: url(../img/projects/equipo1.png) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-position: 5% 0;
+}
+
+.ud_3{
+	background: url(../img/projects/lib-medica1.png) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-position: 5% 0;
+}
+
+.ud_4{
+	background: url(../img/projects/mcal.png) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-position: 5% 0;
+	background-size: 120%;
+}
+
+.ud_5{
+	background: url(../img/projects/todo.png) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-position: 5% 0;
+	background-size: 120%;
+}
+
+
+
+/*************************
+Pottafolio 3
+**************************/
+#folder .ud_portafolio{
+	display: inline-block;
+	width: 90%;
+	float: left;
+	margin: 20px;
+	height: 250px;
+	position: relative;
+}
+
+#folder .ud_portafolio h3 {
+	z-index: 2;
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	position: absolute;
+	bottom:10px;
+	right: 10px;
+	colud_or: #fff;
+	padding: 5px;
+	background: rgba(211,211,211,.5);
+}
+
+#folder .ud_portafolio .ud_sliding_box{
+	z-index: 1;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(26,58,64,0.7);
+	heigud_ht: 100%;
+}
+
+#folder .ud_portafolio .ud_sliding_box span{
+	padding: 0 0 0 10px;
+	font-size: 14px;
+	color: #fff;
+	opacity: 0;
+	position: absolute;
+	border-left: 5px solid #fff;
+	left: 0;
+	right: 5%;
+	top: 20px;
+	width: 75%;
+	text-align: left;
+}
+
+#folder .ud_portafolio:hover{
+	background-position: 50% 0;
+}
+
+#folder .ud_portafolio:hover > .ud_sliding_box{
+	opacity: 1;
+}
+
+#folder .ud_portafolio:hover > .ud_sliding_box span{
+	opacity: 1;
+	left: 6%;
+}
+
+#folder .ud_portafolio:hover > .ud_portafolio h3{
+	background: #fff;
+	color: red;
+}
